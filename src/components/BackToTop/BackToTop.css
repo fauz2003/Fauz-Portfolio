@@ -1,0 +1,25 @@
+.back-to-top {
+    position:sticky;
+    bottom: 6px;
+    margin-left: -20px;
+    font-size: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #DA7C25;
+    border: 2px solid white;
+    border-radius: 30%;
+    padding:0px 0px 0px 21px;
+    width:60px;
+  }
+  .back-to-top:hover{
+    border:2px solid #DA7C25;
+    scale: 1.05;
+    transition: 0.5s;
+    color: white;
+  }
+  
+  .back-to-top.visible {
+    opacity: 1;
+  }
+  
+ 

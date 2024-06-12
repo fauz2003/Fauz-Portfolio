@@ -1,0 +1,28 @@
+.footer{
+    margin:50 px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer hr{
+    border: 2px solid #DF8908;
+}
+.footer-bottom{
+    margin: 10px 80px 30px;
+    display:flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+.footer-bottom p{
+    color: #D8D8D8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-bottom-left{
+    display: flex;
+    gap: 20px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 20px;
+}
