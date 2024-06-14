@@ -19,7 +19,7 @@ const Projects = () => {
                 <h2>HealthHub</h2>
                 <p>
                     - A complete medical web portal with integrated AI medical assistance chatbot.<br/>
-                    - Technologies used: HTML/CSS, JavaScript, Node.js and Gemini API
+                    - <b>Technologies used:</b> HTML/CSS, JavaScript, Node.js and Gemini API
                 </p>
                 <div className="projects-readmore">
                      <p>Source Code</p>
@@ -33,7 +33,7 @@ const Projects = () => {
                     <h2>Maidaan</h2>
                     <p>
                         - A complete Full stack Football Matchmaking platform.<br/>
-                        - Technologies used: JavaFx, Scene Builder, MySQL, Oracle, Microsoft SQL Server
+                        - <b>Technologies used:</b> JavaFx, Scene Builder, MySQL, Oracle, Microsoft SQL Server
                     </p>
                     <div className="projects-readmore">
                          <p>Source Code</p>
@@ -47,7 +47,7 @@ const Projects = () => {
                     <h2>Personal Portfolio Website</h2>
                     <p>
                     - Developed a fully functional user friendly Portfolio website<br/>
-                    - Technologies used: React.js, Git
+                    - <b>Technologies used:</b> React.js, Git
                     </p>
                     <div className="projects-readmore">
                          <p>Source Code</p>
@@ -62,7 +62,7 @@ const Projects = () => {
                     <p>
                     - Implemented Genetic Algorithm to schedule a clash-free timetable.
                     <br/>
-                    - Technologies used: Python
+                    - <b>Technologies used:</b> Python
                     </p>
                     <div className="projects-readmore">
                          <p>Source Code</p>
@@ -76,7 +76,7 @@ const Projects = () => {
                     <h2>Neural Network</h2>
                     <p>
                         - Operating system depicting Nueral-Network architecture on a multicore processor.<br/>
-                        - Technologies used: C++, Linux
+                        - <b>Technologies used:</b> C++, Linux
                     </p>
                     <div className="projects-readmore">
                          <p>Source Code</p>
@@ -90,7 +90,7 @@ const Projects = () => {
                     <h2>Kth Shortest Path Problem</h2>
                     <p>
                         - Used MPI and OpenMP to parallelize the Kth Shortest Path Problem.<br/>
-                        - Technologies used: C++, OpenMP, MPI
+                        - <b>Technologies used:</b> C++, OpenMP, MPI
                     </p>
                     <div className="projects-readmore">
                          <p>Source Code</p>

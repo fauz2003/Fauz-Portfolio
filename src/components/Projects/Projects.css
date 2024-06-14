@@ -30,6 +30,10 @@
     transition:0.4s;
     cursor:pointer;
 }
+.projects-format span{
+    color: #B923E1;
+    font-weight: 500;
+}
 .projects-container{
     display:grid;
     grid-template-columns: repeat(autofill, max-width);
