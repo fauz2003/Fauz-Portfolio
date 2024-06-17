@@ -26,3 +26,28 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width:420px){
+    .footer{
+        margin: 0px 20px;
+    }
+    .footer-bottom{
+        margin: 10px 20px 30px;
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom p{
+        font-size: 18px;
+    }
+    .footer-bottom-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom-right{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

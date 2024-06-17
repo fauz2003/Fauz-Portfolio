@@ -8,11 +8,10 @@
 .about-title{
     position: relative;
     justify-content: center;
-    
 }
 
 .about-title h1{
-    padding: 0px 30px;
+    padding: 0px 15px;
     font-size: 60px;
     font-weight: 600;
 }
@@ -106,8 +105,36 @@
         font-size: 24px;
         font-weight: 600;
         min-width: 600px;
+    }       
+}
+@media(max-width:420px){
+    .about{
+        transform: scale(0.8);
+        margin-top: -10%;
+        margin-bottom: 30%;
     }
-    
-        
+    .about-left img{
+        display: none;
+    }
+    .about-sections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 35%;
+        gap: -10px;
+    }
+    .about-right{
+        margin-left: 20%;
+    }
+    .about-para{
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: 600;
+        min-width: 400px;
+    } 
+    .about-title{
+        transform: scale(0.9);
+    }
 }
 

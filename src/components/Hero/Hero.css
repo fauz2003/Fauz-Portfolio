@@ -63,3 +63,12 @@
     color:#B415FF;
     transition: 0.5s;
 }
+@media(max-width:420px){
+    .hero{
+        transform: scale(0.9);
+    }
+    .hero-action{
+        transform: scale(0.9);
+        gap: 50px;
+    }
+}

@@ -9,20 +9,10 @@ body{
   font-family: 'outfit';
   scale: 0.9;
 }
-/*
-@media(max-width:900px){
-  .projects, .about, .navbar, .hero, .contact, .footer{
+
+@media(max-width:420px){
+  .back-to-top{
     display: none;
-  }
-  .err{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    font-size: 2rem;
-    background-color:black;
-    color: bisque;
+  }  
 }
-}
-*/
+
