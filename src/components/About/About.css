@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     gap: 70px;
-    margin: 80px 70px;
+    margin: 8% 7%;
 }
 .about-title{
     position: relative;
@@ -27,6 +26,8 @@
 
 .about-sections{
     display: flex;
+    flex-direction: row;
+    gap: 0px;
 }
 
 .about-right{
@@ -35,7 +36,8 @@
     align-content: center;
     gap: 70px;
     padding-right: 40px;
-    margin-left: -100px;
+    margin-left: -6%;
+   
 }
 .about-left img{
     scale: 0.5;
@@ -63,12 +65,10 @@
     gap: 40px;
     align-items: center;
     transition: 0.3s;
-
 }
 
 .about-skill:hover{
     transform: scale(1.05);
-    
 }
 
 .about-skill p{
@@ -84,5 +84,30 @@
     height: 8px;
     width: 50%;
     border-radius: 50px;
+}
+
+@media(max-width:768px){
+    .about-left img{
+        display: none;
+    }
+    .about-sections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 35%;
+        gap: -10px;
+    }
+    .about-right{
+        margin-left: 20%;
+    }
+    .about-para{
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: 600;
+        min-width: 600px;
+    }
+    
+        
 }
 

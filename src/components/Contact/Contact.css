@@ -108,4 +108,25 @@
     
 }
 
+@media(max-width:768px){
+    .contact-sections{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:70px;
+    }
+    .contact-left, .contact-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .contact-right{
+        align-items: start;
+    }
+    .contact-left h1{
+        font-size: 60px;
+    }
+}
+
 

@@ -9,6 +9,7 @@ body{
   font-family: 'outfit';
   scale: 0.9;
 }
+/*
 @media(max-width:900px){
   .projects, .about, .navbar, .hero, .contact, .footer{
     display: none;
@@ -24,3 +25,4 @@ body{
     color: bisque;
 }
 }
+*/

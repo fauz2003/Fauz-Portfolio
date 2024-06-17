@@ -2,7 +2,7 @@
     display:flex;
     align-items:center ;
     justify-content: space-between;
-    margin: -10px 100px 20px 10px;
+    margin: 0% 2% 2% 0%;
 }
 .navbar img{
     scale: 0.5;
@@ -10,10 +10,11 @@
 .nav-menu{
     display:flex;
     align-items:center;
+    justify-content: center;
     list-style: none;
-    gap: 80px;
+    gap: 35%;
     font-size: 20px;
-    margin-right: 40px;
+    margin-right: 4%;
 }
 .nav-connect{
     padding:10px 20px;
@@ -44,6 +45,26 @@
     color: #D8D8D8;
     text-decoration: none;
 }
-.nav-mob-close{
-    display: none;
+
+@media(max-width:768px){
+    .navbar img{
+        display: none;
+    }
+    .nav-connect{
+        display: none;
+    } 
+    .nav-menu{
+        margin-left: 30%;
+        margin-right: 30%;
+        display: flex;
+        flex-direction: row;
+        gap: 30%;
+        font-size: 24px;
+        justify-content: center;
+    }
+    .nav-menu p:hover{
+        transition: 0.3s;
+        transform: scale(1.08);
+        color: #B923E1;
+    }
 }

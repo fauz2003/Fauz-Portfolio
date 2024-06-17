@@ -6,7 +6,7 @@ import ProfileImg from '../../assets/1717954874136.jpg'
 
 const Hero = () => {
   return (
-    <div id='home' className='hero'>
+    <div  className='hero'>
         <img src={ProfileImg}/>
         <h1><span>I'm Fauz Ahmed,</span> MERN stack developer based in Islamabad</h1>
         <div className='hero-action'>
