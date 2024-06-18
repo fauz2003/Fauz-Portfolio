@@ -17,8 +17,8 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>
-                    I am a Computer Science student pursuing my Bachelor's degree from FAST University, Islamabad, with a strong passion for leveraging programming to solve real-world problems.
-                    My interest lies in full-stack development, with a specific focus on MERN stack development, where I specialize in constructing responsive and user-friendly web applications.
+                    I am a Computer Science student  with a strong passion for leveraging programming to solve real-world problems.
+                    My interest lies in full-stack development, with a specific focus on MERN stack, where I specialize in constructing responsive and user-friendly web applications.
                     </p>
                 </div>
                 <div className="aboutskills">
