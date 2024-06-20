@@ -111,8 +111,8 @@
         transform: scale(0.9);
         margin-top: -10%;
         margin-bottom: 30%;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 3px;
+        margin-left: 8px;
     }
     .about-sections{
         display: flex;

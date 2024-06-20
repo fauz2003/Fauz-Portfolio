@@ -10,7 +10,8 @@
 
 @media (max-width:420px){
     .footer{
-        margin: 0px 20px;
+        margin: -40px 20px;
+        
     }
 
 }

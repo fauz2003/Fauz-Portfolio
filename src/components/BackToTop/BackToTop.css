@@ -11,6 +11,8 @@
     background-color: black;
     padding:0px 0px 0px 21px;
     width:60px;
+    opacity: 0; 
+    visibility: hidden; 
     animation: movebtn 2s infinite;
   }
 
@@ -35,7 +37,8 @@
   }
   
   .back-to-top.visible {
-    opacity: 1;
+    opacity: 1; 
+    visibility: visible; 
   }
   
   @media (max-width:420px){
@@ -47,6 +50,8 @@
     width: 10px;
     scrollbar-color: orange;
     padding: 2%;
+    opacity: 0; 
+    visibility: hidden;
    }
    .back-to-top:hover{
     border:0ch;

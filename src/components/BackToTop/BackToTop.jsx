@@ -1,4 +1,3 @@
-// BackToTop.js
 
 import React, { useState, useEffect } from 'react';
 import './BackToTop.css'; 
@@ -8,7 +7,7 @@ const BackToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowArrow(window.scrollY > 1);
+      setShowArrow(window.scrollY > 10);
     };
 
     window.addEventListener('scroll', handleScroll);

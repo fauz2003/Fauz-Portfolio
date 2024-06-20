@@ -89,6 +89,8 @@
     }
     .projects-container{
         transform: scale(0.9);
+        margin-left: 8px;
+        margin-right: 8px;
     }
     .projects{
         gap: 0px;
