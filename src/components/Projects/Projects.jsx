@@ -18,7 +18,7 @@ const Projects = () => {
                 <h3>01</h3>
                 <h2>HealthHub</h2>
                 <p>
-                    - A complete medical web portal with integrated AI medical assistance chatbot.<br/>
+                    - A comprehensive medical web portal with integrated AI medical assistance chatbot.<br/>
                     - <b>Technologies used:</b> HTML/CSS, JavaScript, Node.js and Gemini API
                 </p>
                 <div className="projects-readmore">
@@ -32,7 +32,7 @@ const Projects = () => {
                 <h3>02</h3>
                     <h2>Maidaan</h2>
                     <p>
-                        - A complete Full stack Football Matchmaking platform.<br/>
+                        - A Full stack Football Matchmaking platform.<br/>
                         - <b>Technologies used:</b> JavaFx, Scene Builder, MySQL, Oracle, Microsoft SQL Server
                     </p>
                     <div className="projects-readmore">
@@ -46,7 +46,7 @@ const Projects = () => {
                 <h3>03</h3>
                     <h2>Personal Portfolio Website</h2>
                     <p>
-                    - Developed a fully functional user friendly Portfolio website<br/>
+                    - Fully functional user friendly Portfolio website<br/>
                     - <b>Technologies used:</b> React.js, Git
                     </p>
                     <div className="projects-readmore">
@@ -60,7 +60,7 @@ const Projects = () => {
                 <h3>04</h3>
                     <h2>TimeTable Scheduling</h2>
                     <p>
-                    - Implemented Genetic Algorithm to schedule a clash-free timetable.
+                    - Implementation of Genetic Algorithm to schedule a clash-free timetable.
                     <br/>
                     - <b>Technologies used:</b> Python
                     </p>
@@ -89,7 +89,7 @@ const Projects = () => {
                     <h3>06</h3>
                     <h2>Kth Shortest Path Problem</h2>
                     <p>
-                        - Used MPI and OpenMP to parallelize the Kth Shortest Path Problem.<br/>
+                        - Implementation of MPI and OpenMP to parallelize the Kth Shortest Path Problem.<br/>
                         - <b>Technologies used:</b> C++, OpenMP, MPI
                     </p>
                     <div className="projects-readmore">

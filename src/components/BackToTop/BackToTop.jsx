@@ -1,14 +1,14 @@
 // BackToTop.js
 
 import React, { useState, useEffect } from 'react';
-import './BackToTop.css'; // Import your CSS file for styling
+import './BackToTop.css'; 
 
 const BackToTop = () => {
   const [showArrow, setShowArrow] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowArrow(window.scrollY > 100);
+      setShowArrow(window.scrollY > 1);
     };
 
     window.addEventListener('scroll', handleScroll);
