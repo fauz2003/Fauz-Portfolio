@@ -38,4 +38,24 @@
     opacity: 1;
   }
   
+  @media (max-width:420px){
+   .back-to-top{
+    font-size: 50px;
+    border-radius: 30%;
+    border: 0ch;
+    background: #161513;
+    width: 10px;
+    scrollbar-color: orange;
+    padding: 2%;
+   }
+   .back-to-top:hover{
+    border:0ch;
+    scale: 1.05;
+    transition: 0.5s;
+    color: white;
+    animation-play-state: paused;
+    padding: 2%;
+    width: 10px;
+   }
+  }
  

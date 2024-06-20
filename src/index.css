@@ -11,8 +11,6 @@ body{
 }
 
 @media(max-width:420px){
-  .back-to-top{
-    display: none;
-  }  
+   
 }
 
