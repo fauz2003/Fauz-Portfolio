@@ -4,6 +4,7 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import location_icon from '../../assets/location_icon.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import API_KEY from '../../../config';
 
 
 const Contact = () => {
@@ -11,7 +12,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "5e55be93-4f57-415d-986d-1a86a1c20e60");
+        formData.append("access_key", API_KEY);
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
