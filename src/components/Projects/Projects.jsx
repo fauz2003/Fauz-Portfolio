@@ -13,7 +13,7 @@ const Projects = () => {
             <img src={theme_pattern}/>
         </div>
         <div className="projects-container">
-        <a href='https://github.com/fauz2003/HealthHub' target='blank'>
+        <a href='https://github.com/fauz2003/Goal-Setter' target='blank'>
             <div className="projects-format">
                 <h3>01</h3>
                 <h2>GoalSetter</h2>
