@@ -13,9 +13,23 @@ const Projects = () => {
             <img src={theme_pattern}/>
         </div>
         <div className="projects-container">
-            <a href='https://github.com/fauz2003/HealthHub' target='blank'>
+        <a href='https://github.com/fauz2003/HealthHub' target='blank'>
             <div className="projects-format">
                 <h3>01</h3>
+                <h2>GoalSetter</h2>
+                <p>
+                    - A classic goal setting application.<br/>
+                    - <b>Technologies used:</b> React JS, Node JS, MongoDB, Express JS, JWT
+                </p>
+                <div className="projects-readmore">
+                     <p>Source Code</p>
+                    <img src={arrow_icon} />
+                </div>
+            </div>
+            </a>
+            <a href='https://github.com/fauz2003/HealthHub' target='blank'>
+            <div className="projects-format">
+                <h3>02</h3>
                 <h2>HealthHub</h2>
                 <p>
                     - A comprehensive medical web portal with integrated AI medical assistance chatbot.<br/>
@@ -29,7 +43,7 @@ const Projects = () => {
             </a>
             <a href='https://github.com/fauz2003/Maidaan' target='blank'>
             <div className="projects-format">
-                <h3>02</h3>
+                <h3>03</h3>
                     <h2>Maidaan</h2>
                     <p>
                         - A Full stack Football Matchmaking platform.<br/>
@@ -43,7 +57,7 @@ const Projects = () => {
             </a>
             <a href='https://github.com/fauz2003/Fauz-Portfolio' target='blank'>
             <div className="projects-format">
-                <h3>03</h3>
+                <h3>04</h3>
                     <h2>Personal Portfolio Website</h2>
                     <p>
                     - Fully functional user friendly Portfolio website<br/>
@@ -57,7 +71,7 @@ const Projects = () => {
             </a>
             <a href='https://github.com/fauz2003/TimeTable-Scheduling' target='blank'>
             <div className="projects-format">
-                <h3>04</h3>
+                <h3>05</h3>
                     <h2>TimeTable Scheduling</h2>
                     <p>
                     - Implementation of Genetic Algorithm to schedule a clash-free timetable.
@@ -72,7 +86,7 @@ const Projects = () => {
             </a>
             <a href='https://github.com/fauz2003/Neural-Network' target='blank'>
                 <div className="projects-format">
-                    <h3>05</h3>
+                    <h3>06</h3>
                     <h2>Neural Network</h2>
                     <p>
                         - Operating system depicting Nueral-Network architecture on a multicore processor.<br/>
@@ -86,7 +100,7 @@ const Projects = () => {
             </a>
             <a href='https://github.com/fauz2003/Kth-Shortest-Path-Problem' target='blank'>
                 <div className="projects-format">
-                    <h3>06</h3>
+                    <h3>07</h3>
                     <h2>Kth Shortest Path Problem</h2>
                     <p>
                         - Implementation of MPI and OpenMP to parallelize the Kth Shortest Path Problem.<br/>
