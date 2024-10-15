@@ -11,9 +11,6 @@ const About = () => {
                 <img src={theme_pattern}/>
         </div>
         <div className="about-sections">
-            <div className="about-left">
-                <img src={profile_img}/>
-            </div>
             <div className="about-right">
                 <div className="about-para">
                     <p>
@@ -46,7 +43,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    </div>
+     </div>
   )
 }
 

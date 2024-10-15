@@ -5,14 +5,16 @@
     gap: 38px;
 }
 .hero img{
-    border-radius: 50%;
-    margin-top: 35px;
-    width: 200px;
+    border-radius: 70%;
+    margin-top: 15px;
+    width: 250px;
     border-color: white;
     transition: 0.3s;
+    border: 3px solid #0000;
 }
 .hero img:hover{
     transform: scale(1.05);
+    border: 3px solid #B415FF;
 }
 .hero h1{
     font-size: 35px;
