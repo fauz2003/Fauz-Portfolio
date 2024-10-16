@@ -20,28 +20,28 @@ const About = () => {
                 </div>
                 <div className="about-skills">
                     <div className="about-skill">
-                        <p>MERN (Web)</p><hr style={{width:"70%"}} />
+                        <p>MERN (Web)</p><hr className='skill-progress' style={{width:"70%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>React Native</p><hr style={{width:"60%"}} />
+                        <p>React Native</p><hr className='skill-progress' style={{width:"60%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Databases</p><hr style={{width:"70%"}} />
+                        <p>Databases</p><hr className='skill-progress' style={{width:"70%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Python</p><hr style={{width:"35%"}} />
+                        <p>Python</p><hr className='skill-progress' style={{width:"35%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Docker</p><hr style={{width:"50%"}} />
+                        <p>Docker</p><hr className='skill-progress' style={{width:"50%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>AWS</p><hr style={{width:"40%"}} />
+                        <p>AWS</p><hr className='skill-progress' style={{width:"40%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Git/GitHub</p><hr style={{width:"60%"}} />
+                        <p>Git/GitHub</p><hr className='skill-progress' style={{width:"60%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Linux</p><hr style={{width:"50%"}} />
+                        <p>Linux</p><hr className='skill-progress' style={{width:"50%"}} />
                     </div>
                 </div>
             </div>

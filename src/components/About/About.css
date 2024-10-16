@@ -37,8 +37,6 @@
     align-content: center;
     gap: 70px;
     padding-top: 30px;
-    /* padding-right: 40px; */
-    /* margin-left: -6%; */
    
 }
 .about-left img{
@@ -172,6 +170,10 @@
         margin-right: 0;
         padding-left: 0px;
         width: 100%;
+    }
+    .about-skill hr{
+        width: 50px;
+        
     }
 }
 
