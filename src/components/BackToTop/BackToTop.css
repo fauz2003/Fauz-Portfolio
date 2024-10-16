@@ -1,7 +1,7 @@
 .back-to-top {
     position:sticky;
     bottom: 6px;
-    margin-left: -20px;
+    margin-left: 1200px;
     font-size: 60px;
     cursor: pointer;
     transition: 0.3s;
@@ -52,6 +52,7 @@
     padding: 2%;
     opacity: 0; 
     visibility: hidden;
+    margin-left: -20px;
    }
    .back-to-top:hover{
     border:0ch;

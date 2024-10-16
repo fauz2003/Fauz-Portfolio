@@ -13,32 +13,35 @@ const About = () => {
         <div className="about-sections">
             <div className="about-right">
                 <div className="about-para">
-                    <p>
+                    <p className='text-shadow'>
                     I am a Computer Science student  with a strong passion for leveraging programming to solve real-world problems.
                     My interest lies in full-stack development, with a specific focus on MERN stack, where I specialize in constructing responsive and user-friendly web applications.
                     </p>
                 </div>
-                <div className="aboutskills">
+                <div className="about-skills">
                     <div className="about-skill">
-                        <p>React JS</p><hr style={{width:"68%"}} />
+                        <p>MERN (Web)</p><hr style={{width:"70%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Node JS</p><hr style={{width:"75%"}} />
+                        <p>React Native</p><hr style={{width:"60%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Databases</p><hr style={{width:"80%"}} />
+                        <p>Databases</p><hr style={{width:"70%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Docker</p><hr style={{width:"60%"}} />
+                        <p>Python</p><hr style={{width:"35%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>AWS</p><hr style={{width:"30%"}} />
+                        <p>Docker</p><hr style={{width:"50%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Git/GitHub</p><hr style={{width:"75%"}} />
+                        <p>AWS</p><hr style={{width:"40%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Linux</p><hr style={{width:"40%"}} />
+                        <p>Git/GitHub</p><hr style={{width:"60%"}} />
+                    </div>
+                    <div className="about-skill">
+                        <p>Linux</p><hr style={{width:"50%"}} />
                     </div>
                 </div>
             </div>
