@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base:"Fauz-Portfolio",
   plugins: [react()],
+  server: {
+    host: '0.0.0.0',  // Listen on all network interfaces
+    port: 5173,       // Keep port fixed
+    strictPort: true, // Prevent automatic port changes
+    cors: true,       // Enable CORS
+  }
 })
