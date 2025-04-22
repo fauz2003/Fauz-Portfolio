@@ -1,16 +1,16 @@
-name: Deploy to GitHub Pages
+name: Auto Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Automatically deploy when you push to main
+      - main  # Change to your deployment branch if different
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -21,6 +21,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Deploy using npm script
-        run: npm run deploy
+      - name: Inject Vite Environment Variables
+        run: |
+          echo "VITE_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}" >> $GITHUB_ENV
 
+      - name: Build Vite App
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
