@@ -35,7 +35,6 @@
     display: flex;
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 40px;
 }
 
 .about-right{
@@ -73,7 +72,7 @@
     width: 100%;
     align-self: center;
     position: relative;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 
   border: 4px solid;
   border-image: linear-gradient(90deg, orange, purple);
