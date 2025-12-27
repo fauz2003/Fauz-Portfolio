@@ -14,8 +14,7 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p className='text-shadow'>
-                    I am a Computer Science student  with a strong passion for leveraging programming to solve real-world problems.
-                    My interest lies in full-stack development, with a specific focus on MERN stack, where I specialize in constructing responsive and user-friendly web applications.
+                     I am a Full Stack Engineer with hands on experience in designing, developing, and deploying exterprise-level web and mobile applications. With over 2 years of experience in the tech industry, I have honed my skills in various technologies and frameworks, allowing me to create robust and scalable solutions. My passion for coding and problem-solving drives me to continuously learn and adapt to new challenges in the ever-evolving field of software development.
                     </p>
                 </div>
                 <div className="about-skills">
