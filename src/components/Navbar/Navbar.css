@@ -64,6 +64,9 @@
         font-size: 24px;
         justify-content: center;
     }
+    .nav-menu li:nth-child(3) {
+        display: none;
+    }
     .nav-menu p:hover{
         transition: 0.3s;
         transform: scale(1.08);
@@ -85,6 +88,9 @@
         align-items: center;
         gap: 13%;
         font-size: 20px;
+    }
+    .nav-menu li:nth-child(3) {
+        display: none;
     }
     .nav-menu p:hover{
         transition: 0.3s;

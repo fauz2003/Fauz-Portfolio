@@ -10,7 +10,6 @@
     padding-left: 12px;
     padding-right: 12px;
     position: relative;
-    padding-bottom: 140px; /* reserve space so next section doesn't overlap */
 }
 .about-title{
     position: relative;
@@ -36,7 +35,6 @@
     display: flex;
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 40px;
 }
 
 .about-right{
@@ -74,7 +72,7 @@
     width: 100%;
     align-self: center;
     position: relative;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 
   border: 4px solid;
   border-image: linear-gradient(90deg, orange, purple);
@@ -223,7 +221,6 @@
     display: flex;
     gap: 32px;
     align-items: center;
-    /* make it wide so duplicated items can scroll */
     width: max-content;
     animation: scroll-left 32s linear infinite;
 }

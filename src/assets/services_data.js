@@ -1,39 +1,51 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"HealthHub",
-        s_desc:". A complete medical web portal with integrated AI medical assistance chatbot.",
-        s_tools:". Technologies used: HTML/CSS, JavaScript, Node.js and Gemini API"
+        s_name:"Website Development",
+        s_desc:"Build fully functional, responsive websites that showcase your business and engage your customers. From concept to deployment.",
+        icon: "🌐"
     },
     {
         s_no:"02",
-        s_name:"Maidaan",
-        s_desc:"Football Matchmaking platform",
-        s_tools:". Technologies used: JavaFx, Scene Builder, MySQL, Oracle, Microsoft SQL Server"
+        s_name:"Landing Pages",
+        s_desc:"Create high-converting landing pages designed to capture leads and drive conversions for your marketing campaigns.",
+        icon: "🎯"
     },
     {
         s_no:"03",
-        s_name:"TimeTable Scheduling",
-        s_desc:"Implemented Genetic Algorithm to schedule a clash-free timetable",
-        s_tools:". Technologies used: Python"
+        s_name:"Brand Websites",
+        s_desc:"Develop comprehensive brand websites that reflect your company identity and tell your story to the world.",
+        icon: "🎨"
     },
     {
         s_no:"04",
-        s_name:"Personal Portfolio Wesbite",
-        s_desc:"Developed a fully functional user friendly Portfolio website",
-        s_tools:". Technologies used: React.js, Git"
+        s_name:"Portfolio Websites",
+        s_desc:"Showcase your work and expertise with a professional portfolio that impresses clients and recruiters alike.",
+        icon: "💼"
     },
     {
         s_no:"05",
-        s_name:"Neural Network",
-        s_desc:"Operating system depicting Nueral-Network architecture on a multicore processor",
-        s_tools:". Technologies used: C++, Linux"
+        s_name:"App Development",
+        s_desc:"Transform your ideas into powerful mobile and web applications that solve real business problems and delight users.",
+        icon: "📱"
     },
     {
         s_no:"06",
-        s_name:"Kth",
-        s_desc:"Operating system depicting Nueral-Network architecture on a multicore processor",
-        s_tools:". Technologies used: C++, Linux"
+        s_name:"Custom Software Solutions",
+        s_desc:"Get bespoke software tailored to your unique business needs. Scalable, secure, and built for your success.",
+        icon: "⚙️"
+    },
+    {
+        s_no:"07",
+        s_name:"Deployment & Hosting",
+        s_desc:"Deploy your projects securely with reliable hosting solutions. Performance optimization and continuous support included.",
+        icon: "🚀"
+    },
+    {
+        s_no:"08",
+        s_name:"Web Design",
+        s_desc:"Create beautiful, user-friendly interfaces that not only look great but also drive business results and user engagement.",
+        icon: "✨"
     }
 ]
  
