@@ -2,13 +2,39 @@ import React from 'react'
 import './Navbar.css'
 import menu_open from '../../assets/menu_open.svg'
 import underline from '../../assets/nav_underline.svg'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import logo from '../../assets/Fauz.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
 
   const [menu, setMenu] = useState("home");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['home', 'about', 'services', 'projects', 'contact'];
+      const scrollPosition = window.scrollY + 0; // Adding offset for better accuracy
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const offsetTop = element.offsetTop;
+          const offsetHeight = element.offsetHeight;
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setMenu(section);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div id='home' className='navbar'>
         <img src={logo}/>

@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about-para">
                     <p className='text-shadow'>
                      I am a Full Stack Engineer with hands on experience in designing, developing, and deploying exterprise-level software solutions.
-                     With over 2 years of experience in the tech industry, I have honed my skills in various technologies and frameworks, allowing me to create robust and scalable solutions.
+                     With 2+ years of experience in the tech industry, I have honed my skills in various technologies and frameworks, allowing me to create robust and scalable solutions.
                     </p>
                 </div>
                 <div className="about-skills">
