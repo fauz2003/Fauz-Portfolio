@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       id: '05',
-      name: 'Personal Portfolio Website',
+      name: 'Portfolio Website',
       desc: 'Fully functional user friendly Portfolio website',
       tech: 'React.js, Git',
       link: 'https://github.com/fauz2003/Fauz-Portfolio'
